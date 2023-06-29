@@ -32,7 +32,5 @@ describe('Pawn', () => {
 
             moves.should.deep.include(Square.at(6, 7));
         });
-
     });
-
 });
