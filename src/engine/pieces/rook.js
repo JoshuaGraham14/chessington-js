@@ -8,7 +8,6 @@ export default class Rook extends Piece {
 
     getAvailableMoves(board) {
         let posArray = new Array(0)
-        let pos = board.findPiece(this)
 
         for (let i= 0; i <= 7; i++) {
             for (let j = 0; j <= 7; j++) {
